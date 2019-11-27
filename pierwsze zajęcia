@@ -1,0 +1,67 @@
+//plik pierwszy//
+<?php	
+$a=10;
+$b=10;
+
+$suma=$a+$b;
+echo($suma."<br>");
+$różnica=$a-$b;
+echo($różnica."<br>");
+$dzielenie=$a/$b;
+echo($dzielenie."<br>");
+$mnożenie=$a*$b;
+echo($mnożenie."<br>");
+$modulo=$a%$b;
+echo($modulo."<br>");
+
+echo("wynik dodawania $a i $b =".$suma."<br>");
+echo("wynik odejmowania $a - $b  =".$różnica."<br>");
+echo(round("wynik dzielenia $a przez $b=".$dzielenie,3)."<br>");
+echo("wynik mnożenia $a razy $b =".$a*$b."<br>");
+echo("wynik reszty z dzielenia $a przez $b =".$a%$b);
+?>
+//Plik drugi//
+<?php	
+$a=3;
+$b=7;
+$c=4;
+$d=pi();
+if ($a>$b) {
+	echo"$a jest większe od $b";
+	}
+	else if ($a<$b){
+		echo"$a jest mniejsze od $b";
+	}
+	else {
+		echo"$a jest równe $b";
+	}
+$wynik=($a.$b)?"$a jest większe od $b":"$a jest mniejsze od $b";
+echo "<br>", $wynik;
+$wynik=($a%2==0)?"liczba jest parzysta":"liczba jest nieparzysta";
+echo "<br>".$wynik;
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+//elton john I'm still standing//
+function dodaj($a,$b){ 
+$suma=$a+$b;
+return $suma;
+}
+$wynik=dodaj($a,$b);
+echo $wynik;
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+function pole_koła($c,$d){
+	$pole=$d*$c*$c;
+	return $pole;
+}
+$polekola=pole_koła($c,$d);
+echo"pole koła"."<br>";
+echo $polekola;
+?>
