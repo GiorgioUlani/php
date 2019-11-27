@@ -62,6 +62,9 @@ function pole_koła($c,$d){
 	return $pole;
 }
 $polekola=pole_koła($c,$d);
-echo"pole koła"."<br>";
-echo $polekola;
+$obwodkoła=obwod_koła($c,$d,$a);
+echo"pole koła o promieniu $c wynosi"."<br>";
+echo $polekola."<br>";
+echo"obwod koła o promieniu $c wynosi"."<br>";
+echo $obwodkoła."<br>";
 ?>
